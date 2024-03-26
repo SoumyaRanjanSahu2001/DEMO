@@ -35,7 +35,7 @@ public class UserController {
     private ValidationService validationService;
 
     @GetMapping("/")
-    public String getmessage(){
+    public String getmsg(){
         return "Hii";
     }
     @GetMapping("/getmessage")

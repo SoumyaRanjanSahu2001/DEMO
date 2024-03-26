@@ -34,7 +34,10 @@ public class UserController {
     @Autowired
     private ValidationService validationService;
 
-
+    @GetMapping("/")
+    public String getmessage(){
+        return "Hii";
+    }
     @GetMapping("/getmessage")
     public String getmessage(){
         return "Welcome";
